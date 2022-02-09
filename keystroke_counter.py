@@ -102,7 +102,7 @@ win32gui.ShowWindow(win, 0)
 # Store the counter for every key in a list, and we access each counts with its respective KeyID
 keyCounts = [0] * 250
 
-filename = "keypress_counter_v2.0.txt"
+filename = "keystroke_record.txt"
 
 # Retrieve the past key count data that was stored in the text
 # Skip the first 10 elements in the list since they are just the title text
